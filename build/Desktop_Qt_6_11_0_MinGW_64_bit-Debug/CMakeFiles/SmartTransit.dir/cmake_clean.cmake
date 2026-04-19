@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/SmartTransit_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/SmartTransit_autogen.dir/ParseCache.txt"
+  "SmartTransit_autogen"
+  "CMakeFiles/SmartTransit.dir/Admin.cpp.obj"
+  "CMakeFiles/SmartTransit.dir/Admin.cpp.obj.d"
+  "CMakeFiles/SmartTransit.dir/CustomDate.cpp.obj"
+  "CMakeFiles/SmartTransit.dir/CustomDate.cpp.obj.d"
+  "CMakeFiles/SmartTransit.dir/CustomTime.cpp.obj"
+  "CMakeFiles/SmartTransit.dir/CustomTime.cpp.obj.d"
+  "CMakeFiles/SmartTransit.dir/Customstring.cpp.obj"
+  "CMakeFiles/SmartTransit.dir/Customstring.cpp.obj.d"
+  "CMakeFiles/SmartTransit.dir/Driver.cpp.obj"
+  "CMakeFiles/SmartTransit.dir/Driver.cpp.obj.d"
+  "CMakeFiles/SmartTransit.dir/Passenger.cpp.obj"
+  "CMakeFiles/SmartTransit.dir/Passenger.cpp.obj.d"
+  "CMakeFiles/SmartTransit.dir/Person.cpp.obj"
+  "CMakeFiles/SmartTransit.dir/Person.cpp.obj.d"
+  "CMakeFiles/SmartTransit.dir/RegionalManager.cpp.obj"
+  "CMakeFiles/SmartTransit.dir/RegionalManager.cpp.obj.d"
+  "CMakeFiles/SmartTransit.dir/SmartTransit_autogen/mocs_compilation.cpp.obj"
+  "CMakeFiles/SmartTransit.dir/SmartTransit_autogen/mocs_compilation.cpp.obj.d"
+  "CMakeFiles/SmartTransit.dir/Staff.cpp.obj"
+  "CMakeFiles/SmartTransit.dir/Staff.cpp.obj.d"
+  "CMakeFiles/SmartTransit.dir/SuperAdmin.cpp.obj"
+  "CMakeFiles/SmartTransit.dir/SuperAdmin.cpp.obj.d"
+  "CMakeFiles/SmartTransit.dir/TransitManager.cpp.obj"
+  "CMakeFiles/SmartTransit.dir/TransitManager.cpp.obj.d"
+  "CMakeFiles/SmartTransit.dir/main.cpp.obj"
+  "CMakeFiles/SmartTransit.dir/main.cpp.obj.d"
+  "CMakeFiles/SmartTransit.dir/mainwindow.cpp.obj"
+  "CMakeFiles/SmartTransit.dir/mainwindow.cpp.obj.d"
+  "SmartTransit.exe"
+  "SmartTransit.exe.manifest"
+  "SmartTransit.pdb"
+  "libSmartTransit.dll.a"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/SmartTransit.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
