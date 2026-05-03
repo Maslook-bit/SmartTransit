@@ -1,21 +1,26 @@
 #ifndef PERSON_H
 #define PERSON_H
 
+#include "Entity.h"        // Level 1 Base Class
 #include "CustomString.h"
 #include "CustomDate.h"
 
-class Person {
+class Person : public Entity {
 protected:
-    int id;
     CustomString name;
     CustomDate dob;
 
 public:
-    Person(int _id, CustomString _name, CustomDate _dob);
-    virtual ~Person(); // Virtual ensures memory is cleaned up for child classes
+    // We no longer pass _id because Entity() auto-generates it!
+    Person(CustomString _name, CustomDate _dob);
+    virtual ~Person();
 
-    // Pure virtual function makes this an "Abstract" class
-    virtual void displayDetails() = 0;
+    // Requirement: Const correctness for all getters
+    CustomString getName() const { return name; }
+    CustomDate getDOB() const { return dob; }
+
+    // This remains pure virtual, making Person an abstract class
+    virtual void displayInfo() const override = 0;
 };
 
 #endif

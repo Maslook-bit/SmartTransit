@@ -2,19 +2,17 @@
 #define PASSENGER_H
 
 #include "Person.h"
-#include "DynamicArray.h"
 
 class Passenger : public Person {
 private:
     double balance;
-    // DynamicArray<CustomString> tripHistory; // We can add this once trips are ready!
+    CustomString membershipType; // Changed from ticketType to match .cpp
 
 public:
-    Passenger(int _id, CustomString _name, CustomDate _dob, double _balance);
+    // Ensure this signature matches the .cpp exactly
+    Passenger(CustomString name, CustomDate dob, double bal, CustomString type);
 
-    // Implementing the 'Contract' from the Person class
-    void displayDetails() override;
-
+    void displayInfo() const override;
     void addBalance(double amount);
 };
 

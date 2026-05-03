@@ -8,10 +8,11 @@ private:
     CustomString databaseKey;
 
 public:
-    SuperAdmin(int _id, CustomString _name, CustomDate _dob, CustomString _dept, double _sal, int _access, CustomString _key);
+    SuperAdmin(CustomString _name, CustomDate _dob, CustomString _dept,
+               double _sal, int _access, CustomString _key);
 
-    void displayDetails() override;
-    void systemOverride(); // Unique power for Level 4
+    void displayInfo() const override; // Renamed to match Entity
+    void systemOverride();
 };
 
 #endif

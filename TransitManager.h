@@ -1,20 +1,19 @@
 #ifndef TRANSITMANAGER_H
 #define TRANSITMANAGER_H
 
-#include "DynamicArray.h"
 #include "Person.h"
 
 class TransitManager {
 private:
-    // Storing pointers allows us to use Polymorphism!
-    DynamicArray<Person*> allUsers;
+    Person* allUsers[100]; // Simple pointer array (Requirement: No STL)
+    int userCount;
 
 public:
-    ~TransitManager(); // Important: we'll need to clean up those pointers
+    TransitManager();
+    ~TransitManager();
 
     void addUser(Person* newUser);
     void showAllUsers() const;
-    void findUserByID(int id) const;
 };
 
 #endif

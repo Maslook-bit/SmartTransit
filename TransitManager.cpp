@@ -1,24 +1,27 @@
 #include "TransitManager.h"
 #include <iostream>
 
+TransitManager::TransitManager() : userCount(0) {
+    for(int i = 0; i < 100; i++) allUsers[i] = nullptr;
+}
+
 TransitManager::~TransitManager() {
-    // Since we stored pointers, we must delete the objects they point to
-    // to avoid memory leaks!
-    for (int i = 0; i < allUsers.getSize(); i++) {
+    // Memory Management: Delete polymorphic objects
+    for (int i = 0; i < userCount; i++) {
         delete allUsers[i];
     }
 }
 
 void TransitManager::addUser(Person* newUser) {
-    allUsers.add(newUser); // Change push_back to add
+    if (userCount < 100) {
+        allUsers[userCount++] = newUser;
+    }
 }
 
 void TransitManager::showAllUsers() const {
-    std::cout << "\n--- SmartTransit System Directory ---" << std::endl;
-    for (int i = 0; i < allUsers.getSize(); i++) {
-        // Because displayDetails is VIRTUAL, C++ knows whether
-        // to call the Passenger version or the RegionalManager version!
-        allUsers[i]->displayDetails();
-        std::cout << "------------------------------------" << std::endl;
+    std::cout << "\n--- SmartTransit System Directory ---\n";
+    for (int i = 0; i < userCount; i++) {
+        // Polymorphism in action!
+        allUsers[i]->displayInfo();
     }
 }

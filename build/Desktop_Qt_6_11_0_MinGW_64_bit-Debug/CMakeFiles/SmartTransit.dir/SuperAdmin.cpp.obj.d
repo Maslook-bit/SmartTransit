@@ -4,8 +4,8 @@ CMakeFiles/SmartTransit.dir/SuperAdmin.cpp.obj: \
  C:\NUST_OOP\SmartTransit_Project\SmartTransit\Admin.h \
  C:\NUST_OOP\SmartTransit_Project\SmartTransit\Staff.h \
  C:\NUST_OOP\SmartTransit_Project\SmartTransit\Person.h \
+ C:\NUST_OOP\SmartTransit_Project\SmartTransit\Entity.h \
  C:\NUST_OOP\SmartTransit_Project\SmartTransit\CustomString.h \
- C:\NUST_OOP\SmartTransit_Project\SmartTransit\CustomDate.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -147,4 +147,6 @@ CMakeFiles/SmartTransit.dir/SuperAdmin.cpp.obj: \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
- C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
+ C:\NUST_OOP\SmartTransit_Project\SmartTransit\CustomDate.h \
+ C:\NUST_OOP\SmartTransit_Project\SmartTransit\CustomExceptions.h

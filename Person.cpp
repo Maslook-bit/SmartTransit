@@ -1,11 +1,19 @@
 #include "Person.h"
+#include <iostream>
 
-// The constructor initializes the basic info for anyone in the system
-Person::Person(int _id, CustomString _name, CustomDate _dob)
-    : id(_id), name(_name), dob(_dob)
+// Explicitly call Entity() to ensure ID generation works
+Person::Person(CustomString _name, CustomDate _dob)
+    : Entity(), name(_name), dob(_dob)
 {
-    // Body can stay empty because the initializer list did the work!
 }
 
-// Virtual destructor is empty but necessary for safe inheritance
-Person::~Person() {}
+void Person::displayInfo() const {
+    std::cout << "ID: " << id << " | Name: ";
+    name.display();
+    std::cout << " | DOB: ";
+    dob.display();
+}
+
+Person::~Person() {
+    // Cleanup handled by member destructors
+}

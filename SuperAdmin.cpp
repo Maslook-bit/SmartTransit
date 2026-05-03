@@ -1,13 +1,14 @@
 #include "SuperAdmin.h"
 #include <iostream>
 
-SuperAdmin::SuperAdmin(int _id, CustomString _name, CustomDate _dob, CustomString _dept, double _sal, int _access, CustomString _key)
-    : Admin(_id, _name, _dob, _dept, _sal, _access), databaseKey(_key) {}
+SuperAdmin::SuperAdmin(CustomString _name, CustomDate _dob, CustomString _dept,
+                       double _sal, int _access, CustomString _key)
+    : Admin(_name, _dob, _dept, _sal, _access), databaseKey(_key) {}
 
-void SuperAdmin::displayDetails() {
-    Admin::displayDetails(); // Call the parent display to show common info
-    std::cout << "Security Status: Super User" << std::endl;
-    std::cout << "Database Key: ********" << std::endl; // Secure display
+void SuperAdmin::displayInfo() const {
+    Admin::displayInfo(); // Shows ID, Name, Dept, Salary, Access Level
+    std::cout << "Security Status: Super User\n";
+    std::cout << "Database Key: [PROTECTED]\n";
 }
 
 void SuperAdmin::systemOverride() {

@@ -3,15 +3,19 @@
 
 #include "Staff.h"
 
+// Level 4 of the Hierarchy
 class Admin : public Staff {
-private:
+protected:
     int accessLevel; // 1-5 scale for security clearance
 
 public:
-    Admin(int _id, CustomString _name, CustomDate _dob, CustomString _dept, double _sal, int _access);
+    // Removed _id to match the Entity-based system
+    Admin(CustomString _name, CustomDate _dob, CustomString _dept, double _sal, int _access);
 
-    void displayDetails() override;
-    void manageSystem(); // Unique function just for Admins
+    // Renamed to displayInfo and marked const to satisfy the rubric
+    virtual void displayInfo() const override;
+
+    void manageSystem();
 };
 
 #endif

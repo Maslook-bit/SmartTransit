@@ -278,6 +278,201 @@ CMakeFiles/SmartTransit.dir/TransitManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SmartTransit.dir/TransitManager.cpp.s"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\NUST_OOP\SmartTransit_Project\SmartTransit\TransitManager.cpp -o CMakeFiles\SmartTransit.dir\TransitManager.cpp.s
 
+CMakeFiles/SmartTransit.dir/Entity.cpp.obj: CMakeFiles/SmartTransit.dir/flags.make
+CMakeFiles/SmartTransit.dir/Entity.cpp.obj: CMakeFiles/SmartTransit.dir/includes_CXX.rsp
+CMakeFiles/SmartTransit.dir/Entity.cpp.obj: C:/NUST_OOP/SmartTransit_Project/SmartTransit/Entity.cpp
+CMakeFiles/SmartTransit.dir/Entity.cpp.obj: CMakeFiles/SmartTransit.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\NUST_OOP\SmartTransit_Project\SmartTransit\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/SmartTransit.dir/Entity.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SmartTransit.dir/Entity.cpp.obj -MF CMakeFiles\SmartTransit.dir\Entity.cpp.obj.d -o CMakeFiles\SmartTransit.dir\Entity.cpp.obj -c C:\NUST_OOP\SmartTransit_Project\SmartTransit\Entity.cpp
+
+CMakeFiles/SmartTransit.dir/Entity.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SmartTransit.dir/Entity.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\NUST_OOP\SmartTransit_Project\SmartTransit\Entity.cpp > CMakeFiles\SmartTransit.dir\Entity.cpp.i
+
+CMakeFiles/SmartTransit.dir/Entity.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SmartTransit.dir/Entity.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\NUST_OOP\SmartTransit_Project\SmartTransit\Entity.cpp -o CMakeFiles\SmartTransit.dir\Entity.cpp.s
+
+CMakeFiles/SmartTransit.dir/GeoCoordinate.cpp.obj: CMakeFiles/SmartTransit.dir/flags.make
+CMakeFiles/SmartTransit.dir/GeoCoordinate.cpp.obj: CMakeFiles/SmartTransit.dir/includes_CXX.rsp
+CMakeFiles/SmartTransit.dir/GeoCoordinate.cpp.obj: C:/NUST_OOP/SmartTransit_Project/SmartTransit/GeoCoordinate.cpp
+CMakeFiles/SmartTransit.dir/GeoCoordinate.cpp.obj: CMakeFiles/SmartTransit.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\NUST_OOP\SmartTransit_Project\SmartTransit\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/SmartTransit.dir/GeoCoordinate.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SmartTransit.dir/GeoCoordinate.cpp.obj -MF CMakeFiles\SmartTransit.dir\GeoCoordinate.cpp.obj.d -o CMakeFiles\SmartTransit.dir\GeoCoordinate.cpp.obj -c C:\NUST_OOP\SmartTransit_Project\SmartTransit\GeoCoordinate.cpp
+
+CMakeFiles/SmartTransit.dir/GeoCoordinate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SmartTransit.dir/GeoCoordinate.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\NUST_OOP\SmartTransit_Project\SmartTransit\GeoCoordinate.cpp > CMakeFiles\SmartTransit.dir\GeoCoordinate.cpp.i
+
+CMakeFiles/SmartTransit.dir/GeoCoordinate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SmartTransit.dir/GeoCoordinate.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\NUST_OOP\SmartTransit_Project\SmartTransit\GeoCoordinate.cpp -o CMakeFiles\SmartTransit.dir\GeoCoordinate.cpp.s
+
+CMakeFiles/SmartTransit.dir/TransitAsset.cpp.obj: CMakeFiles/SmartTransit.dir/flags.make
+CMakeFiles/SmartTransit.dir/TransitAsset.cpp.obj: CMakeFiles/SmartTransit.dir/includes_CXX.rsp
+CMakeFiles/SmartTransit.dir/TransitAsset.cpp.obj: C:/NUST_OOP/SmartTransit_Project/SmartTransit/TransitAsset.cpp
+CMakeFiles/SmartTransit.dir/TransitAsset.cpp.obj: CMakeFiles/SmartTransit.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\NUST_OOP\SmartTransit_Project\SmartTransit\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/SmartTransit.dir/TransitAsset.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SmartTransit.dir/TransitAsset.cpp.obj -MF CMakeFiles\SmartTransit.dir\TransitAsset.cpp.obj.d -o CMakeFiles\SmartTransit.dir\TransitAsset.cpp.obj -c C:\NUST_OOP\SmartTransit_Project\SmartTransit\TransitAsset.cpp
+
+CMakeFiles/SmartTransit.dir/TransitAsset.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SmartTransit.dir/TransitAsset.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\NUST_OOP\SmartTransit_Project\SmartTransit\TransitAsset.cpp > CMakeFiles\SmartTransit.dir\TransitAsset.cpp.i
+
+CMakeFiles/SmartTransit.dir/TransitAsset.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SmartTransit.dir/TransitAsset.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\NUST_OOP\SmartTransit_Project\SmartTransit\TransitAsset.cpp -o CMakeFiles\SmartTransit.dir\TransitAsset.cpp.s
+
+CMakeFiles/SmartTransit.dir/Vehicle.cpp.obj: CMakeFiles/SmartTransit.dir/flags.make
+CMakeFiles/SmartTransit.dir/Vehicle.cpp.obj: CMakeFiles/SmartTransit.dir/includes_CXX.rsp
+CMakeFiles/SmartTransit.dir/Vehicle.cpp.obj: C:/NUST_OOP/SmartTransit_Project/SmartTransit/Vehicle.cpp
+CMakeFiles/SmartTransit.dir/Vehicle.cpp.obj: CMakeFiles/SmartTransit.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\NUST_OOP\SmartTransit_Project\SmartTransit\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/SmartTransit.dir/Vehicle.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SmartTransit.dir/Vehicle.cpp.obj -MF CMakeFiles\SmartTransit.dir\Vehicle.cpp.obj.d -o CMakeFiles\SmartTransit.dir\Vehicle.cpp.obj -c C:\NUST_OOP\SmartTransit_Project\SmartTransit\Vehicle.cpp
+
+CMakeFiles/SmartTransit.dir/Vehicle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SmartTransit.dir/Vehicle.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\NUST_OOP\SmartTransit_Project\SmartTransit\Vehicle.cpp > CMakeFiles\SmartTransit.dir\Vehicle.cpp.i
+
+CMakeFiles/SmartTransit.dir/Vehicle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SmartTransit.dir/Vehicle.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\NUST_OOP\SmartTransit_Project\SmartTransit\Vehicle.cpp -o CMakeFiles\SmartTransit.dir\Vehicle.cpp.s
+
+CMakeFiles/SmartTransit.dir/CityBus.cpp.obj: CMakeFiles/SmartTransit.dir/flags.make
+CMakeFiles/SmartTransit.dir/CityBus.cpp.obj: CMakeFiles/SmartTransit.dir/includes_CXX.rsp
+CMakeFiles/SmartTransit.dir/CityBus.cpp.obj: C:/NUST_OOP/SmartTransit_Project/SmartTransit/CityBus.cpp
+CMakeFiles/SmartTransit.dir/CityBus.cpp.obj: CMakeFiles/SmartTransit.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\NUST_OOP\SmartTransit_Project\SmartTransit\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/SmartTransit.dir/CityBus.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SmartTransit.dir/CityBus.cpp.obj -MF CMakeFiles\SmartTransit.dir\CityBus.cpp.obj.d -o CMakeFiles\SmartTransit.dir\CityBus.cpp.obj -c C:\NUST_OOP\SmartTransit_Project\SmartTransit\CityBus.cpp
+
+CMakeFiles/SmartTransit.dir/CityBus.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SmartTransit.dir/CityBus.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\NUST_OOP\SmartTransit_Project\SmartTransit\CityBus.cpp > CMakeFiles\SmartTransit.dir\CityBus.cpp.i
+
+CMakeFiles/SmartTransit.dir/CityBus.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SmartTransit.dir/CityBus.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\NUST_OOP\SmartTransit_Project\SmartTransit\CityBus.cpp -o CMakeFiles\SmartTransit.dir\CityBus.cpp.s
+
+CMakeFiles/SmartTransit.dir/ElectricScooter.cpp.obj: CMakeFiles/SmartTransit.dir/flags.make
+CMakeFiles/SmartTransit.dir/ElectricScooter.cpp.obj: CMakeFiles/SmartTransit.dir/includes_CXX.rsp
+CMakeFiles/SmartTransit.dir/ElectricScooter.cpp.obj: C:/NUST_OOP/SmartTransit_Project/SmartTransit/ElectricScooter.cpp
+CMakeFiles/SmartTransit.dir/ElectricScooter.cpp.obj: CMakeFiles/SmartTransit.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\NUST_OOP\SmartTransit_Project\SmartTransit\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/SmartTransit.dir/ElectricScooter.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SmartTransit.dir/ElectricScooter.cpp.obj -MF CMakeFiles\SmartTransit.dir\ElectricScooter.cpp.obj.d -o CMakeFiles\SmartTransit.dir\ElectricScooter.cpp.obj -c C:\NUST_OOP\SmartTransit_Project\SmartTransit\ElectricScooter.cpp
+
+CMakeFiles/SmartTransit.dir/ElectricScooter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SmartTransit.dir/ElectricScooter.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\NUST_OOP\SmartTransit_Project\SmartTransit\ElectricScooter.cpp > CMakeFiles\SmartTransit.dir\ElectricScooter.cpp.i
+
+CMakeFiles/SmartTransit.dir/ElectricScooter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SmartTransit.dir/ElectricScooter.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\NUST_OOP\SmartTransit_Project\SmartTransit\ElectricScooter.cpp -o CMakeFiles\SmartTransit.dir\ElectricScooter.cpp.s
+
+CMakeFiles/SmartTransit.dir/SeniorDriver.cpp.obj: CMakeFiles/SmartTransit.dir/flags.make
+CMakeFiles/SmartTransit.dir/SeniorDriver.cpp.obj: CMakeFiles/SmartTransit.dir/includes_CXX.rsp
+CMakeFiles/SmartTransit.dir/SeniorDriver.cpp.obj: C:/NUST_OOP/SmartTransit_Project/SmartTransit/SeniorDriver.cpp
+CMakeFiles/SmartTransit.dir/SeniorDriver.cpp.obj: CMakeFiles/SmartTransit.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\NUST_OOP\SmartTransit_Project\SmartTransit\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/SmartTransit.dir/SeniorDriver.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SmartTransit.dir/SeniorDriver.cpp.obj -MF CMakeFiles\SmartTransit.dir\SeniorDriver.cpp.obj.d -o CMakeFiles\SmartTransit.dir\SeniorDriver.cpp.obj -c C:\NUST_OOP\SmartTransit_Project\SmartTransit\SeniorDriver.cpp
+
+CMakeFiles/SmartTransit.dir/SeniorDriver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SmartTransit.dir/SeniorDriver.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\NUST_OOP\SmartTransit_Project\SmartTransit\SeniorDriver.cpp > CMakeFiles\SmartTransit.dir\SeniorDriver.cpp.i
+
+CMakeFiles/SmartTransit.dir/SeniorDriver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SmartTransit.dir/SeniorDriver.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\NUST_OOP\SmartTransit_Project\SmartTransit\SeniorDriver.cpp -o CMakeFiles\SmartTransit.dir\SeniorDriver.cpp.s
+
+CMakeFiles/SmartTransit.dir/Stop.cpp.obj: CMakeFiles/SmartTransit.dir/flags.make
+CMakeFiles/SmartTransit.dir/Stop.cpp.obj: CMakeFiles/SmartTransit.dir/includes_CXX.rsp
+CMakeFiles/SmartTransit.dir/Stop.cpp.obj: C:/NUST_OOP/SmartTransit_Project/SmartTransit/Stop.cpp
+CMakeFiles/SmartTransit.dir/Stop.cpp.obj: CMakeFiles/SmartTransit.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\NUST_OOP\SmartTransit_Project\SmartTransit\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/SmartTransit.dir/Stop.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SmartTransit.dir/Stop.cpp.obj -MF CMakeFiles\SmartTransit.dir\Stop.cpp.obj.d -o CMakeFiles\SmartTransit.dir\Stop.cpp.obj -c C:\NUST_OOP\SmartTransit_Project\SmartTransit\Stop.cpp
+
+CMakeFiles/SmartTransit.dir/Stop.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SmartTransit.dir/Stop.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\NUST_OOP\SmartTransit_Project\SmartTransit\Stop.cpp > CMakeFiles\SmartTransit.dir\Stop.cpp.i
+
+CMakeFiles/SmartTransit.dir/Stop.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SmartTransit.dir/Stop.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\NUST_OOP\SmartTransit_Project\SmartTransit\Stop.cpp -o CMakeFiles\SmartTransit.dir\Stop.cpp.s
+
+CMakeFiles/SmartTransit.dir/Route.cpp.obj: CMakeFiles/SmartTransit.dir/flags.make
+CMakeFiles/SmartTransit.dir/Route.cpp.obj: CMakeFiles/SmartTransit.dir/includes_CXX.rsp
+CMakeFiles/SmartTransit.dir/Route.cpp.obj: C:/NUST_OOP/SmartTransit_Project/SmartTransit/Route.cpp
+CMakeFiles/SmartTransit.dir/Route.cpp.obj: CMakeFiles/SmartTransit.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\NUST_OOP\SmartTransit_Project\SmartTransit\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/SmartTransit.dir/Route.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SmartTransit.dir/Route.cpp.obj -MF CMakeFiles\SmartTransit.dir\Route.cpp.obj.d -o CMakeFiles\SmartTransit.dir\Route.cpp.obj -c C:\NUST_OOP\SmartTransit_Project\SmartTransit\Route.cpp
+
+CMakeFiles/SmartTransit.dir/Route.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SmartTransit.dir/Route.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\NUST_OOP\SmartTransit_Project\SmartTransit\Route.cpp > CMakeFiles\SmartTransit.dir\Route.cpp.i
+
+CMakeFiles/SmartTransit.dir/Route.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SmartTransit.dir/Route.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\NUST_OOP\SmartTransit_Project\SmartTransit\Route.cpp -o CMakeFiles\SmartTransit.dir\Route.cpp.s
+
+CMakeFiles/SmartTransit.dir/IFareCalculator.cpp.obj: CMakeFiles/SmartTransit.dir/flags.make
+CMakeFiles/SmartTransit.dir/IFareCalculator.cpp.obj: CMakeFiles/SmartTransit.dir/includes_CXX.rsp
+CMakeFiles/SmartTransit.dir/IFareCalculator.cpp.obj: C:/NUST_OOP/SmartTransit_Project/SmartTransit/IFareCalculator.cpp
+CMakeFiles/SmartTransit.dir/IFareCalculator.cpp.obj: CMakeFiles/SmartTransit.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\NUST_OOP\SmartTransit_Project\SmartTransit\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/SmartTransit.dir/IFareCalculator.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SmartTransit.dir/IFareCalculator.cpp.obj -MF CMakeFiles\SmartTransit.dir\IFareCalculator.cpp.obj.d -o CMakeFiles\SmartTransit.dir\IFareCalculator.cpp.obj -c C:\NUST_OOP\SmartTransit_Project\SmartTransit\IFareCalculator.cpp
+
+CMakeFiles/SmartTransit.dir/IFareCalculator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SmartTransit.dir/IFareCalculator.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\NUST_OOP\SmartTransit_Project\SmartTransit\IFareCalculator.cpp > CMakeFiles\SmartTransit.dir\IFareCalculator.cpp.i
+
+CMakeFiles/SmartTransit.dir/IFareCalculator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SmartTransit.dir/IFareCalculator.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\NUST_OOP\SmartTransit_Project\SmartTransit\IFareCalculator.cpp -o CMakeFiles\SmartTransit.dir\IFareCalculator.cpp.s
+
+CMakeFiles/SmartTransit.dir/AppController.cpp.obj: CMakeFiles/SmartTransit.dir/flags.make
+CMakeFiles/SmartTransit.dir/AppController.cpp.obj: CMakeFiles/SmartTransit.dir/includes_CXX.rsp
+CMakeFiles/SmartTransit.dir/AppController.cpp.obj: C:/NUST_OOP/SmartTransit_Project/SmartTransit/AppController.cpp
+CMakeFiles/SmartTransit.dir/AppController.cpp.obj: CMakeFiles/SmartTransit.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\NUST_OOP\SmartTransit_Project\SmartTransit\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/SmartTransit.dir/AppController.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SmartTransit.dir/AppController.cpp.obj -MF CMakeFiles\SmartTransit.dir\AppController.cpp.obj.d -o CMakeFiles\SmartTransit.dir\AppController.cpp.obj -c C:\NUST_OOP\SmartTransit_Project\SmartTransit\AppController.cpp
+
+CMakeFiles/SmartTransit.dir/AppController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SmartTransit.dir/AppController.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\NUST_OOP\SmartTransit_Project\SmartTransit\AppController.cpp > CMakeFiles\SmartTransit.dir\AppController.cpp.i
+
+CMakeFiles/SmartTransit.dir/AppController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SmartTransit.dir/AppController.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\NUST_OOP\SmartTransit_Project\SmartTransit\AppController.cpp -o CMakeFiles\SmartTransit.dir\AppController.cpp.s
+
+CMakeFiles/SmartTransit.dir/FleetController.cpp.obj: CMakeFiles/SmartTransit.dir/flags.make
+CMakeFiles/SmartTransit.dir/FleetController.cpp.obj: CMakeFiles/SmartTransit.dir/includes_CXX.rsp
+CMakeFiles/SmartTransit.dir/FleetController.cpp.obj: C:/NUST_OOP/SmartTransit_Project/SmartTransit/FleetController.cpp
+CMakeFiles/SmartTransit.dir/FleetController.cpp.obj: CMakeFiles/SmartTransit.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\NUST_OOP\SmartTransit_Project\SmartTransit\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/SmartTransit.dir/FleetController.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SmartTransit.dir/FleetController.cpp.obj -MF CMakeFiles\SmartTransit.dir\FleetController.cpp.obj.d -o CMakeFiles\SmartTransit.dir\FleetController.cpp.obj -c C:\NUST_OOP\SmartTransit_Project\SmartTransit\FleetController.cpp
+
+CMakeFiles/SmartTransit.dir/FleetController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SmartTransit.dir/FleetController.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\NUST_OOP\SmartTransit_Project\SmartTransit\FleetController.cpp > CMakeFiles\SmartTransit.dir\FleetController.cpp.i
+
+CMakeFiles/SmartTransit.dir/FleetController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SmartTransit.dir/FleetController.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\NUST_OOP\SmartTransit_Project\SmartTransit\FleetController.cpp -o CMakeFiles\SmartTransit.dir\FleetController.cpp.s
+
+CMakeFiles/SmartTransit.dir/TicketingController.cpp.obj: CMakeFiles/SmartTransit.dir/flags.make
+CMakeFiles/SmartTransit.dir/TicketingController.cpp.obj: CMakeFiles/SmartTransit.dir/includes_CXX.rsp
+CMakeFiles/SmartTransit.dir/TicketingController.cpp.obj: C:/NUST_OOP/SmartTransit_Project/SmartTransit/TicketingController.cpp
+CMakeFiles/SmartTransit.dir/TicketingController.cpp.obj: CMakeFiles/SmartTransit.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\NUST_OOP\SmartTransit_Project\SmartTransit\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/SmartTransit.dir/TicketingController.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SmartTransit.dir/TicketingController.cpp.obj -MF CMakeFiles\SmartTransit.dir\TicketingController.cpp.obj.d -o CMakeFiles\SmartTransit.dir\TicketingController.cpp.obj -c C:\NUST_OOP\SmartTransit_Project\SmartTransit\TicketingController.cpp
+
+CMakeFiles/SmartTransit.dir/TicketingController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SmartTransit.dir/TicketingController.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\NUST_OOP\SmartTransit_Project\SmartTransit\TicketingController.cpp > CMakeFiles\SmartTransit.dir\TicketingController.cpp.i
+
+CMakeFiles/SmartTransit.dir/TicketingController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SmartTransit.dir/TicketingController.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\NUST_OOP\SmartTransit_Project\SmartTransit\TicketingController.cpp -o CMakeFiles\SmartTransit.dir\TicketingController.cpp.s
+
 # Object files for target SmartTransit
 SmartTransit_OBJECTS = \
 "CMakeFiles/SmartTransit.dir/SmartTransit_autogen/mocs_compilation.cpp.obj" \
@@ -293,7 +488,20 @@ SmartTransit_OBJECTS = \
 "CMakeFiles/SmartTransit.dir/Admin.cpp.obj" \
 "CMakeFiles/SmartTransit.dir/SuperAdmin.cpp.obj" \
 "CMakeFiles/SmartTransit.dir/RegionalManager.cpp.obj" \
-"CMakeFiles/SmartTransit.dir/TransitManager.cpp.obj"
+"CMakeFiles/SmartTransit.dir/TransitManager.cpp.obj" \
+"CMakeFiles/SmartTransit.dir/Entity.cpp.obj" \
+"CMakeFiles/SmartTransit.dir/GeoCoordinate.cpp.obj" \
+"CMakeFiles/SmartTransit.dir/TransitAsset.cpp.obj" \
+"CMakeFiles/SmartTransit.dir/Vehicle.cpp.obj" \
+"CMakeFiles/SmartTransit.dir/CityBus.cpp.obj" \
+"CMakeFiles/SmartTransit.dir/ElectricScooter.cpp.obj" \
+"CMakeFiles/SmartTransit.dir/SeniorDriver.cpp.obj" \
+"CMakeFiles/SmartTransit.dir/Stop.cpp.obj" \
+"CMakeFiles/SmartTransit.dir/Route.cpp.obj" \
+"CMakeFiles/SmartTransit.dir/IFareCalculator.cpp.obj" \
+"CMakeFiles/SmartTransit.dir/AppController.cpp.obj" \
+"CMakeFiles/SmartTransit.dir/FleetController.cpp.obj" \
+"CMakeFiles/SmartTransit.dir/TicketingController.cpp.obj"
 
 # External object files for target SmartTransit
 SmartTransit_EXTERNAL_OBJECTS =
@@ -312,6 +520,19 @@ SmartTransit.exe: CMakeFiles/SmartTransit.dir/Admin.cpp.obj
 SmartTransit.exe: CMakeFiles/SmartTransit.dir/SuperAdmin.cpp.obj
 SmartTransit.exe: CMakeFiles/SmartTransit.dir/RegionalManager.cpp.obj
 SmartTransit.exe: CMakeFiles/SmartTransit.dir/TransitManager.cpp.obj
+SmartTransit.exe: CMakeFiles/SmartTransit.dir/Entity.cpp.obj
+SmartTransit.exe: CMakeFiles/SmartTransit.dir/GeoCoordinate.cpp.obj
+SmartTransit.exe: CMakeFiles/SmartTransit.dir/TransitAsset.cpp.obj
+SmartTransit.exe: CMakeFiles/SmartTransit.dir/Vehicle.cpp.obj
+SmartTransit.exe: CMakeFiles/SmartTransit.dir/CityBus.cpp.obj
+SmartTransit.exe: CMakeFiles/SmartTransit.dir/ElectricScooter.cpp.obj
+SmartTransit.exe: CMakeFiles/SmartTransit.dir/SeniorDriver.cpp.obj
+SmartTransit.exe: CMakeFiles/SmartTransit.dir/Stop.cpp.obj
+SmartTransit.exe: CMakeFiles/SmartTransit.dir/Route.cpp.obj
+SmartTransit.exe: CMakeFiles/SmartTransit.dir/IFareCalculator.cpp.obj
+SmartTransit.exe: CMakeFiles/SmartTransit.dir/AppController.cpp.obj
+SmartTransit.exe: CMakeFiles/SmartTransit.dir/FleetController.cpp.obj
+SmartTransit.exe: CMakeFiles/SmartTransit.dir/TicketingController.cpp.obj
 SmartTransit.exe: CMakeFiles/SmartTransit.dir/build.make
 SmartTransit.exe: C:/Qt/6.11.0/mingw_64/lib/libQt6Widgets.a
 SmartTransit.exe: C:/Qt/6.11.0/mingw_64/lib/libQt6Gui.a
@@ -319,7 +540,7 @@ SmartTransit.exe: C:/Qt/6.11.0/mingw_64/lib/libQt6Core.a
 SmartTransit.exe: CMakeFiles/SmartTransit.dir/linkLibs.rsp
 SmartTransit.exe: CMakeFiles/SmartTransit.dir/objects1.rsp
 SmartTransit.exe: CMakeFiles/SmartTransit.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\NUST_OOP\SmartTransit_Project\SmartTransit\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable SmartTransit.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\NUST_OOP\SmartTransit_Project\SmartTransit\build\Desktop_Qt_6_11_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX executable SmartTransit.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\SmartTransit.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

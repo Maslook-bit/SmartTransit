@@ -1,19 +1,37 @@
 #ifndef CUSTOMDATE_H
 #define CUSTOMDATE_H
 
+#include "CustomExceptions.h"
+#include "CustomString.h"
+
 class CustomDate {
 private:
     int day, month, year;
 
 public:
-    CustomDate(int d = 1, int m = 1, int y = 2026);
+    // Constructor must throw InvalidDateException for impossible values
+    CustomDate(int d = 1, int m = 1, int y = 2000);
 
-    // To show the date in the GUI later
-    void setDate(int d, int m, int y);
-    bool isValid() const;
+    // Operators
+    long operator-(const CustomDate& other) const; // Day difference
+    CustomDate operator+(int days) const;          // Add N days
+    CustomDate& operator++();                      // Prefix increment
+    bool operator==(const CustomDate& other) const;
+    bool operator<(const CustomDate& other) const;
+    bool operator<=(const CustomDate& other) const;
+    bool operator>(const CustomDate& other) const;
+    bool operator>=(const CustomDate& other) const;
 
-    // Extensibility: We'll need to compare dates for bus maintenance
-    bool isBefore(const CustomDate& other) const;
+    // Methods
+    bool isLeapYear() const;
+    int getDayOfWeek() const; // 0=Sun, 1=Mon...
+    void addMonths(int months);
+    bool isWeekend() const;
+    CustomString toString() const;
+    static CustomDate fromString(CustomString s);
+    static CustomDate today(); // Static factory
+
+    void display() const;
 };
 
 #endif

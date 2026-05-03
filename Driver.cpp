@@ -1,21 +1,27 @@
 #include "Driver.h"
 #include <iostream>
 
-// Level 2 Inheritance: Passing data to the 'Person' grandparent
-Driver::Driver(int _id, CustomString _name, CustomDate _dob, CustomString _lic, int _exp)
-    : Person(_id, _name, _dob), licenseID(_lic), yearsOfExperience(_exp) {}
+Driver::Driver(CustomString name, CustomDate dob, CustomString dept, double sal,
+               CustomString licClass, int vehicleId)
+    : Staff(name, dob, dept, sal),
+    licenseClass(licClass),
+    assignedVehicleId(vehicleId),
+    hoursThisWeek(0.0),
+    incidentCount(0)
+{
+}
 
-void Driver::displayDetails() {
-    std::cout << "--- Driver Professional Profile ---" << std::endl;
-    std::cout << "Employee ID: " << id << std::endl;
-    // Name will be displayed here once CustomString print is ready
-    std::cout << "License No: ";
-    licenseID.display(); // Assuming you add a display method to CustomString
-    std::cout << "\nExperience: " << yearsOfExperience << " years" << std::endl;
+void Driver::displayInfo() const {
+    std::cout << "--- Driver Profile ---\n";
+    Staff::displayInfo(); // Reuse Staff display for Name/ID/Dept/Salary
 
-    if (yearsOfExperience > 5) {
-        std::cout << "Status: Senior Lead Driver" << std::endl;
-    } else {
-        std::cout << "Status: Junior Driver" << std::endl;
-    }
+    std::cout << "License Class: "; licenseClass.display();
+    std::cout << "\nAssigned Vehicle ID: " << assignedVehicleId;
+    std::cout << "\nWeekly Hours: " << hoursThisWeek;
+    std::cout << "\nIncidents: " << incidentCount << "\n";
+    std::cout << "----------------------" << std::endl;
+}
+
+void Driver::logHours(double hours) {
+    if (hours > 0) hoursThisWeek += hours;
 }

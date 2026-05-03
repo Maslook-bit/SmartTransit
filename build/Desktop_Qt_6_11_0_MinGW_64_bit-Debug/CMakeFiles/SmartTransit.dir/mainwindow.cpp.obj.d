@@ -387,10 +387,25 @@ CMakeFiles/SmartTransit.dir/mainwindow.cpp.obj: \
  C:/Qt/6.11.0/mingw_64/include/QtGui/qbitmap.h \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qtabwidget.h \
  C:\NUST_OOP\SmartTransit_Project\SmartTransit\TransitManager.h \
- C:\NUST_OOP\SmartTransit_Project\SmartTransit\DynamicArray.h \
  C:\NUST_OOP\SmartTransit_Project\SmartTransit\Person.h \
+ C:\NUST_OOP\SmartTransit_Project\SmartTransit\Entity.h \
  C:\NUST_OOP\SmartTransit_Project\SmartTransit\CustomString.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype \
+ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wctype.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
  C:\NUST_OOP\SmartTransit_Project\SmartTransit\CustomDate.h \
+ C:\NUST_OOP\SmartTransit_Project\SmartTransit\CustomExceptions.h \
  C:/NUST_OOP/SmartTransit_Project/SmartTransit/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/SmartTransit_autogen/include/ui_mainwindow.h \
  C:/Qt/6.11.0/mingw_64/include/QtCore/QVariant \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/QApplication \
@@ -407,13 +422,37 @@ CMakeFiles/SmartTransit.dir/mainwindow.cpp.obj: \
  C:/Qt/6.11.0/mingw_64/include/QtGui/qinputmethod.h \
  C:/Qt/6.11.0/mingw_64/include/QtCore/qlocale.h \
  C:/Qt/6.11.0/mingw_64/include/QtGui/qguiapplication_platform.h \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/QComboBox \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/qcombobox.h \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/qstyleoption.h \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/qabstractspinbox.h \
+ C:/Qt/6.11.0/mingw_64/include/QtGui/qvalidator.h \
+ C:/Qt/6.11.0/mingw_64/include/QtCore/qregularexpression.h \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/qslider.h \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/qabstractslider.h \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/qstyle.h \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/qtabbar.h \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/qrubberband.h \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/qframe.h \
+ C:/Qt/6.11.0/mingw_64/include/QtCore/qabstractitemmodel.h \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/QHeaderView \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/qheaderview.h \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/qabstractitemview.h \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+ C:/Qt/6.11.0/mingw_64/include/QtCore/qitemselectionmodel.h \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/QLabel \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qlabel.h \
- C:/Qt/6.11.0/mingw_64/include/QtWidgets/qframe.h \
  C:/Qt/6.11.0/mingw_64/include/QtGui/qpicture.h \
  C:/Qt/6.11.0/mingw_64/include/QtCore/qiodevice.h \
  C:/Qt/6.11.0/mingw_64/include/QtGui/qtextdocument.h \
  C:/Qt/6.11.0/mingw_64/include/QtCore/qurl.h \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/QLineEdit \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/qlineedit.h \
+ C:/Qt/6.11.0/mingw_64/include/QtGui/qtextcursor.h \
+ C:/Qt/6.11.0/mingw_64/include/QtGui/qtextformat.h \
+ C:/Qt/6.11.0/mingw_64/include/QtGui/qpen.h \
+ C:/Qt/6.11.0/mingw_64/include/QtGui/qtextoption.h \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/QMainWindow \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/QMenuBar \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qmenubar.h \
@@ -421,10 +460,28 @@ CMakeFiles/SmartTransit.dir/mainwindow.cpp.obj: \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/QPushButton \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qpushbutton.h \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qabstractbutton.h \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/QStackedWidget \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/qstackedwidget.h \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/QStatusBar \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qstatusbar.h \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/QTableWidget \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/qtablewidget.h \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/qtableview.h \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/QVBoxLayout \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/qboxlayout.h \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/qlayout.h \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/qlayoutitem.h \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/qgridlayout.h \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/QWidget \
+ C:/Qt/6.11.0/mingw_64/include/QtCore/QDebug \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/QMessageBox \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qmessagebox.h \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qdialog.h \
- C:/Qt/6.11.0/mingw_64/include/QtWidgets/qdialogbuttonbox.h
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/QInputDialog \
+ C:/Qt/6.11.0/mingw_64/include/QtWidgets/qinputdialog.h \
+ C:/Qt/6.11.0/mingw_64/include/QtCore/QTimer \
+ C:/Qt/6.11.0/mingw_64/include/QtCore/qtimer.h \
+ C:/Qt/6.11.0/mingw_64/include/QtCore/QTime \
+ C:/Qt/6.11.0/mingw_64/include/QtCore/qdatetime.h \
+ C:/Qt/6.11.0/mingw_64/include/QtCore/qcalendar.h

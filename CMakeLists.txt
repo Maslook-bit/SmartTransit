@@ -14,7 +14,7 @@ qt_add_executable(SmartTransit
     CustomString.cpp
     CustomDate.h
     CustomDate.cpp
-    DynamicArray.h
+
     CustomTime.h CustomTime.cpp
     Person.h Person.cpp
     Passenger.h Passenger.cpp
@@ -24,6 +24,21 @@ qt_add_executable(SmartTransit
     SuperAdmin.h SuperAdmin.cpp
     RegionalManager.h RegionalManager.cpp
     TransitManager.h TransitManager.cpp
+    Entity.h Entity.cpp
+
+    GeoCoordinate.h GeoCoordinate.cpp
+    CustomExceptions.h
+    TransitAsset.h TransitAsset.cpp
+    Vehicle.h Vehicle.cpp
+    CityBus.h CityBus.cpp
+    ElectricScooter.h ElectricScooter.cpp
+    SeniorDriver.h SeniorDriver.cpp
+    Stop.h Stop.cpp
+    Route.h Route.cpp
+    IFareCalculator.h IFareCalculator.cpp
+    AppController.h AppController.cpp
+    FleetController.h FleetController.cpp
+    TicketingController.h TicketingController.cpp
 )
 
 target_link_libraries(SmartTransit

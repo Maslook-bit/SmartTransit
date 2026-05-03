@@ -223,6 +223,54 @@ Admin.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/Admin.cpp.s
 .PHONY : Admin.cpp.s
 
+AppController.obj: AppController.cpp.obj
+.PHONY : AppController.obj
+
+# target to build an object file
+AppController.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/AppController.cpp.obj
+.PHONY : AppController.cpp.obj
+
+AppController.i: AppController.cpp.i
+.PHONY : AppController.i
+
+# target to preprocess a source file
+AppController.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/AppController.cpp.i
+.PHONY : AppController.cpp.i
+
+AppController.s: AppController.cpp.s
+.PHONY : AppController.s
+
+# target to generate assembly for a file
+AppController.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/AppController.cpp.s
+.PHONY : AppController.cpp.s
+
+CityBus.obj: CityBus.cpp.obj
+.PHONY : CityBus.obj
+
+# target to build an object file
+CityBus.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/CityBus.cpp.obj
+.PHONY : CityBus.cpp.obj
+
+CityBus.i: CityBus.cpp.i
+.PHONY : CityBus.i
+
+# target to preprocess a source file
+CityBus.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/CityBus.cpp.i
+.PHONY : CityBus.cpp.i
+
+CityBus.s: CityBus.cpp.s
+.PHONY : CityBus.s
+
+# target to generate assembly for a file
+CityBus.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/CityBus.cpp.s
+.PHONY : CityBus.cpp.s
+
 CustomDate.obj: CustomDate.cpp.obj
 .PHONY : CustomDate.obj
 
@@ -319,6 +367,126 @@ Driver.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/Driver.cpp.s
 .PHONY : Driver.cpp.s
 
+ElectricScooter.obj: ElectricScooter.cpp.obj
+.PHONY : ElectricScooter.obj
+
+# target to build an object file
+ElectricScooter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/ElectricScooter.cpp.obj
+.PHONY : ElectricScooter.cpp.obj
+
+ElectricScooter.i: ElectricScooter.cpp.i
+.PHONY : ElectricScooter.i
+
+# target to preprocess a source file
+ElectricScooter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/ElectricScooter.cpp.i
+.PHONY : ElectricScooter.cpp.i
+
+ElectricScooter.s: ElectricScooter.cpp.s
+.PHONY : ElectricScooter.s
+
+# target to generate assembly for a file
+ElectricScooter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/ElectricScooter.cpp.s
+.PHONY : ElectricScooter.cpp.s
+
+Entity.obj: Entity.cpp.obj
+.PHONY : Entity.obj
+
+# target to build an object file
+Entity.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/Entity.cpp.obj
+.PHONY : Entity.cpp.obj
+
+Entity.i: Entity.cpp.i
+.PHONY : Entity.i
+
+# target to preprocess a source file
+Entity.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/Entity.cpp.i
+.PHONY : Entity.cpp.i
+
+Entity.s: Entity.cpp.s
+.PHONY : Entity.s
+
+# target to generate assembly for a file
+Entity.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/Entity.cpp.s
+.PHONY : Entity.cpp.s
+
+FleetController.obj: FleetController.cpp.obj
+.PHONY : FleetController.obj
+
+# target to build an object file
+FleetController.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/FleetController.cpp.obj
+.PHONY : FleetController.cpp.obj
+
+FleetController.i: FleetController.cpp.i
+.PHONY : FleetController.i
+
+# target to preprocess a source file
+FleetController.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/FleetController.cpp.i
+.PHONY : FleetController.cpp.i
+
+FleetController.s: FleetController.cpp.s
+.PHONY : FleetController.s
+
+# target to generate assembly for a file
+FleetController.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/FleetController.cpp.s
+.PHONY : FleetController.cpp.s
+
+GeoCoordinate.obj: GeoCoordinate.cpp.obj
+.PHONY : GeoCoordinate.obj
+
+# target to build an object file
+GeoCoordinate.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/GeoCoordinate.cpp.obj
+.PHONY : GeoCoordinate.cpp.obj
+
+GeoCoordinate.i: GeoCoordinate.cpp.i
+.PHONY : GeoCoordinate.i
+
+# target to preprocess a source file
+GeoCoordinate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/GeoCoordinate.cpp.i
+.PHONY : GeoCoordinate.cpp.i
+
+GeoCoordinate.s: GeoCoordinate.cpp.s
+.PHONY : GeoCoordinate.s
+
+# target to generate assembly for a file
+GeoCoordinate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/GeoCoordinate.cpp.s
+.PHONY : GeoCoordinate.cpp.s
+
+IFareCalculator.obj: IFareCalculator.cpp.obj
+.PHONY : IFareCalculator.obj
+
+# target to build an object file
+IFareCalculator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/IFareCalculator.cpp.obj
+.PHONY : IFareCalculator.cpp.obj
+
+IFareCalculator.i: IFareCalculator.cpp.i
+.PHONY : IFareCalculator.i
+
+# target to preprocess a source file
+IFareCalculator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/IFareCalculator.cpp.i
+.PHONY : IFareCalculator.cpp.i
+
+IFareCalculator.s: IFareCalculator.cpp.s
+.PHONY : IFareCalculator.s
+
+# target to generate assembly for a file
+IFareCalculator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/IFareCalculator.cpp.s
+.PHONY : IFareCalculator.cpp.s
+
 Passenger.obj: Passenger.cpp.obj
 .PHONY : Passenger.obj
 
@@ -391,6 +559,54 @@ RegionalManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/RegionalManager.cpp.s
 .PHONY : RegionalManager.cpp.s
 
+Route.obj: Route.cpp.obj
+.PHONY : Route.obj
+
+# target to build an object file
+Route.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/Route.cpp.obj
+.PHONY : Route.cpp.obj
+
+Route.i: Route.cpp.i
+.PHONY : Route.i
+
+# target to preprocess a source file
+Route.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/Route.cpp.i
+.PHONY : Route.cpp.i
+
+Route.s: Route.cpp.s
+.PHONY : Route.s
+
+# target to generate assembly for a file
+Route.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/Route.cpp.s
+.PHONY : Route.cpp.s
+
+SeniorDriver.obj: SeniorDriver.cpp.obj
+.PHONY : SeniorDriver.obj
+
+# target to build an object file
+SeniorDriver.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/SeniorDriver.cpp.obj
+.PHONY : SeniorDriver.cpp.obj
+
+SeniorDriver.i: SeniorDriver.cpp.i
+.PHONY : SeniorDriver.i
+
+# target to preprocess a source file
+SeniorDriver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/SeniorDriver.cpp.i
+.PHONY : SeniorDriver.cpp.i
+
+SeniorDriver.s: SeniorDriver.cpp.s
+.PHONY : SeniorDriver.s
+
+# target to generate assembly for a file
+SeniorDriver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/SeniorDriver.cpp.s
+.PHONY : SeniorDriver.cpp.s
+
 SmartTransit_autogen/mocs_compilation.obj: SmartTransit_autogen/mocs_compilation.cpp.obj
 .PHONY : SmartTransit_autogen/mocs_compilation.obj
 
@@ -439,6 +655,30 @@ Staff.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/Staff.cpp.s
 .PHONY : Staff.cpp.s
 
+Stop.obj: Stop.cpp.obj
+.PHONY : Stop.obj
+
+# target to build an object file
+Stop.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/Stop.cpp.obj
+.PHONY : Stop.cpp.obj
+
+Stop.i: Stop.cpp.i
+.PHONY : Stop.i
+
+# target to preprocess a source file
+Stop.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/Stop.cpp.i
+.PHONY : Stop.cpp.i
+
+Stop.s: Stop.cpp.s
+.PHONY : Stop.s
+
+# target to generate assembly for a file
+Stop.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/Stop.cpp.s
+.PHONY : Stop.cpp.s
+
 SuperAdmin.obj: SuperAdmin.cpp.obj
 .PHONY : SuperAdmin.obj
 
@@ -463,6 +703,54 @@ SuperAdmin.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/SuperAdmin.cpp.s
 .PHONY : SuperAdmin.cpp.s
 
+TicketingController.obj: TicketingController.cpp.obj
+.PHONY : TicketingController.obj
+
+# target to build an object file
+TicketingController.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/TicketingController.cpp.obj
+.PHONY : TicketingController.cpp.obj
+
+TicketingController.i: TicketingController.cpp.i
+.PHONY : TicketingController.i
+
+# target to preprocess a source file
+TicketingController.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/TicketingController.cpp.i
+.PHONY : TicketingController.cpp.i
+
+TicketingController.s: TicketingController.cpp.s
+.PHONY : TicketingController.s
+
+# target to generate assembly for a file
+TicketingController.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/TicketingController.cpp.s
+.PHONY : TicketingController.cpp.s
+
+TransitAsset.obj: TransitAsset.cpp.obj
+.PHONY : TransitAsset.obj
+
+# target to build an object file
+TransitAsset.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/TransitAsset.cpp.obj
+.PHONY : TransitAsset.cpp.obj
+
+TransitAsset.i: TransitAsset.cpp.i
+.PHONY : TransitAsset.i
+
+# target to preprocess a source file
+TransitAsset.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/TransitAsset.cpp.i
+.PHONY : TransitAsset.cpp.i
+
+TransitAsset.s: TransitAsset.cpp.s
+.PHONY : TransitAsset.s
+
+# target to generate assembly for a file
+TransitAsset.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/TransitAsset.cpp.s
+.PHONY : TransitAsset.cpp.s
+
 TransitManager.obj: TransitManager.cpp.obj
 .PHONY : TransitManager.obj
 
@@ -486,6 +774,30 @@ TransitManager.s: TransitManager.cpp.s
 TransitManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/TransitManager.cpp.s
 .PHONY : TransitManager.cpp.s
+
+Vehicle.obj: Vehicle.cpp.obj
+.PHONY : Vehicle.obj
+
+# target to build an object file
+Vehicle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/Vehicle.cpp.obj
+.PHONY : Vehicle.cpp.obj
+
+Vehicle.i: Vehicle.cpp.i
+.PHONY : Vehicle.i
+
+# target to preprocess a source file
+Vehicle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/Vehicle.cpp.i
+.PHONY : Vehicle.cpp.i
+
+Vehicle.s: Vehicle.cpp.s
+.PHONY : Vehicle.s
+
+# target to generate assembly for a file
+Vehicle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SmartTransit.dir\build.make CMakeFiles/SmartTransit.dir/Vehicle.cpp.s
+.PHONY : Vehicle.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -553,6 +865,12 @@ help:
 	@echo ... Admin.obj
 	@echo ... Admin.i
 	@echo ... Admin.s
+	@echo ... AppController.obj
+	@echo ... AppController.i
+	@echo ... AppController.s
+	@echo ... CityBus.obj
+	@echo ... CityBus.i
+	@echo ... CityBus.s
 	@echo ... CustomDate.obj
 	@echo ... CustomDate.i
 	@echo ... CustomDate.s
@@ -565,6 +883,21 @@ help:
 	@echo ... Driver.obj
 	@echo ... Driver.i
 	@echo ... Driver.s
+	@echo ... ElectricScooter.obj
+	@echo ... ElectricScooter.i
+	@echo ... ElectricScooter.s
+	@echo ... Entity.obj
+	@echo ... Entity.i
+	@echo ... Entity.s
+	@echo ... FleetController.obj
+	@echo ... FleetController.i
+	@echo ... FleetController.s
+	@echo ... GeoCoordinate.obj
+	@echo ... GeoCoordinate.i
+	@echo ... GeoCoordinate.s
+	@echo ... IFareCalculator.obj
+	@echo ... IFareCalculator.i
+	@echo ... IFareCalculator.s
 	@echo ... Passenger.obj
 	@echo ... Passenger.i
 	@echo ... Passenger.s
@@ -574,18 +907,36 @@ help:
 	@echo ... RegionalManager.obj
 	@echo ... RegionalManager.i
 	@echo ... RegionalManager.s
+	@echo ... Route.obj
+	@echo ... Route.i
+	@echo ... Route.s
+	@echo ... SeniorDriver.obj
+	@echo ... SeniorDriver.i
+	@echo ... SeniorDriver.s
 	@echo ... SmartTransit_autogen/mocs_compilation.obj
 	@echo ... SmartTransit_autogen/mocs_compilation.i
 	@echo ... SmartTransit_autogen/mocs_compilation.s
 	@echo ... Staff.obj
 	@echo ... Staff.i
 	@echo ... Staff.s
+	@echo ... Stop.obj
+	@echo ... Stop.i
+	@echo ... Stop.s
 	@echo ... SuperAdmin.obj
 	@echo ... SuperAdmin.i
 	@echo ... SuperAdmin.s
+	@echo ... TicketingController.obj
+	@echo ... TicketingController.i
+	@echo ... TicketingController.s
+	@echo ... TransitAsset.obj
+	@echo ... TransitAsset.i
+	@echo ... TransitAsset.s
 	@echo ... TransitManager.obj
 	@echo ... TransitManager.i
 	@echo ... TransitManager.s
+	@echo ... Vehicle.obj
+	@echo ... Vehicle.i
+	@echo ... Vehicle.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

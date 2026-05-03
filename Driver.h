@@ -1,17 +1,24 @@
 #ifndef DRIVER_H
 #define DRIVER_H
 
-#include "Person.h"
+#include "Staff.h"
 
-class Driver : public Person {
-private:
-    CustomString licenseID;
-    int yearsOfExperience;
+class Driver : public Staff {
+protected:
+    CustomString licenseClass;      // e.g., "Heavy", "Commercial"
+    int assignedVehicleId;         // Link to a Vehicle ID
+    double hoursThisWeek;
+    int incidentCount;
 
 public:
-    Driver(int _id, CustomString _name, CustomDate _dob, CustomString _lic, int _exp);
+    Driver(CustomString name, CustomDate dob, CustomString dept, double sal,
+           CustomString licClass, int vehicleId);
 
-    void displayDetails() override;
+    // Implementing displayInfo for Level 4 concrete role
+    virtual void displayInfo() const override;
+
+    // Helper to log work
+    void logHours(double hours);
 };
 
 #endif
