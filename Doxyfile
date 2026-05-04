@@ -1,0 +1,5 @@
+PROJECT_NAME           = "SmartTransit"
+OUTPUT_DIRECTORY       = doc
+GENERATE_LATEX         = NO
+RECURSIVE              = YES
+INPUT                  = .
